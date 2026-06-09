@@ -71,9 +71,15 @@ export default function Products() {
             <h3 style={{ fontFamily: "'Instrument Serif', serif", fontWeight: 400, fontSize: "clamp(1.6rem, 2.5vw, 2.2rem)", lineHeight: 1.1, letterSpacing: "-0.02em", color: "#f5f5f2", marginBottom: "20px" }}>
               UNDERSTAND EVERY GALLON
             </h3>
-            <p style={{ fontSize: "14px", color: "#8a8a82", lineHeight: 1.85, fontWeight: 300, maxWidth: "360px" }}>
+            <p style={{ fontSize: "14px", color: "#8a8a82", lineHeight: 1.85, fontWeight: 300, maxWidth: "360px", marginBottom: "32px" }}>
               Calculate fuel consumption, compare routes, and make cost-efficient decisions before every trip.
             </p>
+            <a href="https://count-fuell.vercel.app/#" target="_blank" rel="noopener noreferrer"
+              style={{ display: "inline-block", backgroundColor: "#f5f5f2", color: "#1a1a18", fontSize: "12px", fontWeight: 600, letterSpacing: "0.08em", textTransform: "uppercase", textDecoration: "none", padding: "12px 24px", borderRadius: "4px", transition: "opacity 0.2s" }}
+              onMouseEnter={e => e.currentTarget.style.opacity = "0.85"}
+              onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
+              Try CountFuell &rarr;
+            </a>
           </div>
 
           {/* Right — mockup */}
